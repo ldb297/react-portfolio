@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// imports
+import React, {useEffect, useState} from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+
 
 function App() {
+  //declare state variables and functions
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*declare what is to be rendered on client-side*/}
+
     </div>
   );
 }
