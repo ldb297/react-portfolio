@@ -1,0 +1,16 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+svg {
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+}
