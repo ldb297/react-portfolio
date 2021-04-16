@@ -1,0 +1,47 @@
+.mainContainer {
+    display: flex;
+    max-height: 600px;
+    max-width: 300px;
+}
+
+.mainContainer svg {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.linkedInSVG {
+    opacity: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.linkedInSVG:hover {
+    opacity: 100%;
+}
+
+.gitHubSVG {
+    opacity: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.gitHubSVG:hover {
+    opacity: 100%;
+}
+
+.emailSVG {
+    opacity: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.emailSVG:hover {
+    opacity: 100%;
+}
