@@ -1,6 +1,7 @@
 //import modules
 import React from 'react';
 import ContactInfo from './ContactInfo';
+import LanguageInfo from './LanguageInfo';
 
 //import styling
 import './styling/MainCard.css'
@@ -14,9 +15,7 @@ const MainCard = () => {
                 Hello! My name is Leo Brooks and I am a Software Engineer from Okinawa, Japan. <br/>
                 I am driven by clean engineering architectures and have a passion for innovative prgramming design.
             </div>
-            <div className="mainCardLanguageImages">
-                here will be those cool language icons to show what proficiencies held
-            </div>
+            <LanguageInfo/>
             <ContactInfo/>
 
         </div>
