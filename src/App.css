@@ -1,0 +1,24 @@
+.mainApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddbf1;
+    margin-top: 25%;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.nameHeader {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    height: 2px;
+    width: 80%;
+    margin-top: -2%;
+    background-color: #d1beb0;
+}
