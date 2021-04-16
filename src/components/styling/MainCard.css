@@ -1,0 +1,13 @@
+
+a {
+    display: flex;
+}
+
+.mainCardContainer {
+    justify-content: space-evenly;
+}
+
+.mainCardBio {
+    display: flex;
+    text-align: center;
+}
