@@ -1,14 +1,15 @@
 // import modules
-import React, {useEffect, useState} from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 //import css
 import './App.css';
 
 //import components
-import Welcome from './components/Welcome';
 import Footer from './components/Footer';
 import MainCard from './components/MainCard';
+import Navigation from './components/Navigation';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -18,11 +19,12 @@ function App() {
   return (
     <div className="mainApp">
       {/*declare what is to be rendered on client-side*/}
-      <div className="nameHeader">
-        よろしくお願いします
-      </div>
+      <div className="nameHeader">Leo Brooks</div>
+      <div className="professionTitleHeader">Software Engineer</div>
       <hr className="nameHeaderLine"/>
-      <Welcome/>
+      <Navigation/>
+      <Route path="/about" component={AboutMe}/>
+      <Route path="/projects" component={Projects}/>
       <MainCard/>
       {/* include component that houses entire business card component*/}
       <Footer/>
