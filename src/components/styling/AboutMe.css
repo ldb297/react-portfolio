@@ -1,0 +1,40 @@
+.aboutMeQuoteText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.45rem;
+    text-align: center;
+}
+
+.aboutMeBioContainer {
+    display: flex;
+    align-items: center;
+    max-height: 400px; 
+    max-width: 600px;
+}
+
+.aboutMeImageContainer {
+    margin: 2%;
+}
+
+#picOfMe {
+    width: 250px;
+    border-radius: 75%;
+}
+
+.aboutMeTextContainer {
+    height: 200px;
+    width: 300px;
+    margin: 2%;
+}
+
+textarea {
+    resize: none;
+}
+
+.resumeLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
