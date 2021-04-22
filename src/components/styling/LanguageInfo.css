@@ -14,3 +14,9 @@ svg {
     width: 45px;
     padding: 10px;
 }
+
+@media only screen and (max-width: 450px){
+    .mainContainer {
+        max-width: 98%;
+    }
+}
