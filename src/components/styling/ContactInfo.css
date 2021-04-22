@@ -9,7 +9,7 @@
 .contactTitle {
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
 }
 
 .svgSubContainer {
@@ -21,10 +21,24 @@
     display: flex;
     justify-content: space-evenly;
     opacity: 75%;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
 
 .mainContainerSvg:hover{
     opacity: 100%;
+}
+
+.mobileTitle {
+    display: none;
+}
+
+@media only screen and (max-width: 450px){
+    .mainContainer {
+        max-width: 98%;
+    }
+
+    .mobileTitle {
+        display: flex;
+    }
 }
