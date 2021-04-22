@@ -1,0 +1,33 @@
+
+a {
+    text-decoration: none;
+    color: #383f51;
+}
+
+a:hover {
+    text-shadow: 0.5px 0.5px white;
+    color: #d1beb0
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutLink {
+    display: flex;
+    margin: 0.5%;
+    padding: 2%;
+}
+
+.projectsLink {
+    display: flex;
+    margin: 0.5%;
+    padding: 2%;
+}
+
+.homeLink {
+    display: flex;
+    margin: 0.5%;
+    padding: 2%;
+}
