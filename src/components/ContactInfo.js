@@ -10,7 +10,7 @@ const ContactInfo = () => {
         <>
             <div className="mainContainer">
 
-                <div className="contactTitle">Contact Links</div>
+                <div className="mobileTitle">tap icons for more info</div>
                 <div className="svgSubContainer">
                     <a href="https://www.github.com/ldb297/" target="_blank" rel="noreferrer">
                         <svg className="mainContainerSvg" viewBox="0 0 128 128">
