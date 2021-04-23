@@ -23,14 +23,34 @@ const Projects = () => {
             {/* flex column*/}
 
             <div className="projectDisplayContainer" id="projectFour">
-                <a className="githubLink" href="https://github.com/ldb297/python_visualizer" target="_blank" rel="noreferrer">Github Link</a>
-                <span className="deployedLink">Deployment Under Construction</span>
+                <span className="projectTitle">Nutrifit Tracker</span>
+                <div className="projectImage">
+                    <div className="twoImages">
+                        <img className="codeImage" src={p4front} id="p4front"/>
+                        <img className="codeImage" src={p4back} id="p4back"/>
+                    </div>
+                    <img className="liveImage" src={p4live}/>
+                </div>
+                <div className="links">
+                    <a className="githubLink" href="https://github.com/ldb297/python_visualizer" target="_blank" rel="noreferrer">Github Link</a>
+                    <span className="deployedLink">Deployment Under Construction</span>
+                </div>
             </div>
 
             <div className="projectDisplayContainer" id="projectThree">
-                <a className="githubLink" href="https://github.com/jessica-au/nipponrunnerFrontend"  target="_blank" rel="noreferrer">Github Frontend</a>
-                <a className="githubLink" href="https://github.com/jessica-au/nipponrunner" target="_blank" rel="noreferrer">Github Backend</a>
-                <a className="deployedLink" href="https://nipponrunner.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Link</a>
+                <span className="projectTitle">nipponRunner</span>
+                <div className="projectImage">
+                    <div className="dualImages">
+                        <img className="codeImage" id="p3back" src={p3back}/>
+                        <img className="codeImage" id="p3front" src={p3front}/>
+                    </div>
+                    <img className="liveImage" src={p3live}/>
+                </div>
+                <div className="links">
+                    <a className="githubLink" href="https://github.com/jessica-au/nipponrunnerFrontend"  target="_blank" rel="noreferrer">Github Frontend</a>
+                    <a className="githubLink" href="https://github.com/jessica-au/nipponrunner" target="_blank" rel="noreferrer">Github Backend</a>
+                    <a className="deployedLink" href="https://nipponrunner.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Link</a>
+                </div>
             </div>
 
             <div className="projectDisplayContainer" id="projectTwo">
