@@ -26,10 +26,10 @@ const Projects = () => {
                 <span className="projectTitle">Nutrifit Tracker</span>
                 <div className="projectImage">
                     <div className="twoImages">
-                        <img className="codeImage" src={p4front} id="p4front"/>
-                        <img className="codeImage" src={p4back} id="p4back"/>
+                        <img className="codeImage" src={p4front} id="p4front" alt="fourth project front end code snippet"/>
+                        <img className="codeImage" src={p4back} id="p4back" alt="fourth project back end code snippet"/>
                     </div>
-                    <img className="liveImage" src={p4live}/>
+                    <img className="liveImage" src={p4live} alt="fourth project live"/>
                 </div>
                 <div className="links">
                     <a className="githubLink" href="https://github.com/ldb297/python_visualizer" target="_blank" rel="noreferrer">Github Link</a>
@@ -41,10 +41,10 @@ const Projects = () => {
                 <span className="projectTitle">nipponRunner</span>
                 <div className="projectImage">
                     <div className="dualImages">
-                        <img className="codeImage" id="p3back" src={p3back}/>
-                        <img className="codeImage" id="p3front" src={p3front}/>
+                        <img className="codeImage" id="p3back" src={p3back} alt="third project back end code snippet"/>
+                        <img className="codeImage" id="p3front" src={p3front} alt="third project front end code snippet"/>
                     </div>
-                    <img className="liveImage" src={p3live}/>
+                    <img className="liveImage" src={p3live} alt="third project live"/>
                 </div>
                 <div className="links">
                     <a className="githubLink" href="https://github.com/jessica-au/nipponrunnerFrontend"  target="_blank" rel="noreferrer">Github Frontend</a>
@@ -56,8 +56,8 @@ const Projects = () => {
             <div className="projectDisplayContainer" id="projectTwo">
                 <span className="projectTitle">gameBook</span>
                 <div className="projectImage">
-                    <img className="codeImage" id="p2code" src={p2code}/>
-                    <img className="liveImage" id="p2live" src={p2live}/>
+                    <img className="codeImage" id="p2code" src={p2code} alt="second project code snippet"/>
+                    <img className="liveImage" id="p2live" src={p2live} alt="second project live"/>
                 </div>
                 <div className="links">
                     <a className="githubLink" href="https://github.com/ldb297/gamebook" target="_blank" rel="noreferrer">Github Link</a>
@@ -69,8 +69,8 @@ const Projects = () => {
                 {/* flex */}
                 <span className="projectTitle">[2B || !2B]</span>
                 <div className="projectImage">
-                    <img className="codeImage" id="p1code" src={p1code}/>
-                    <img className="liveImage" id="p1live" src={p1live}/>
+                    <img className="codeImage" id="p1code" src={p1code} alt="first project code snippet"/>
+                    <img className="liveImage" id="p1live" src={p1live} alt="first project live"/>
                 </div>
                 <div className="links">
                     <a className="githubLink" href="https://github.com/ldb297/Project-1" target="_blank" rel="noreferrer">Github Link</a>
