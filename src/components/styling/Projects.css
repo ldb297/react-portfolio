@@ -5,19 +5,15 @@ img {
 .mainProjectContainer {
     height: 540px;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .projectDisplayContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
-    padding: 2%;
+    margin: 2.5px;
+    padding: 5px;
 }
 
 .projectTitle {
@@ -26,7 +22,7 @@ img {
 }
 
 .projectImage {
-    max-width: 600px;
+    max-width: 540px;
 }
 
 .projectImage:hover .liveImage {
@@ -53,18 +49,34 @@ img {
 .liveImage {
     display: flex;
     position: relative;
-    width: 600px;
-    overflow: hidden;
+    width: 525px;
+    padding: 5px;
 }
 
 .codeImage {
     display: flex;
     opacity: 5%;
     position: absolute;
-    width: 600px;
+    width: 525px;
+    padding: 5px;
     z-index: 1;
 }
 
 #p1code {
     top: 100px;
+}
+
+#p3front {
+    top: 270px;
+}
+
+#p4front {
+    top: 90px;
+    width: 250px;
+}
+
+#p4back {
+    top: 145px;
+    width: 250px;
+    left: 250px;
 }
