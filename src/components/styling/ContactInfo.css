@@ -20,14 +20,14 @@
 .mainContainerSvg {
     display: flex;
     justify-content: space-evenly;
-    opacity: 75%;
+    /* opacity: 75%; */
     width: 75px;
     height: 75px;
 }
 
-.mainContainerSvg:hover{
+/* .mainContainerSvg:hover{
     opacity: 100%;
-}
+} */
 
 .mobileTitle {
     display: none;

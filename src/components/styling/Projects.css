@@ -25,13 +25,13 @@ img {
     max-width: 540px;
 }
 
-.projectImage:hover .liveImage {
+/* .projectImage:hover .liveImage {
     opacity: 5%;
 }
 
 .projectImage:hover .codeImage {
     opacity: 100%;
-}
+} */
 
 .links {
     display: flex;
@@ -53,9 +53,23 @@ img {
     padding: 5px;
 }
 
+.projectDescription {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: bisque;
+    height: 100px;
+    width: 250px;
+    top: 240px;
+    left: 225px;
+    z-index: 1;
+    align-items: center;
+}
+
 .codeImage {
     display: flex;
-    opacity: 5%;
+    /* opacity: 5%; */
     position: absolute;
     width: 525px;
     padding: 5px;
@@ -72,6 +86,7 @@ img {
 
 #p4front {
     top: 90px;
+    left: 20px;
     width: 250px;
 }
 
