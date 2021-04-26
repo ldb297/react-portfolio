@@ -9,10 +9,6 @@ const MainCard = () => {
 
     return (
         <>
-        <div className="mainCardContainer">
-            <ContactInfo/>
-
-        </div>
         </>
     )
 }
