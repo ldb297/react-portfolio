@@ -7,6 +7,15 @@ a {
     justify-content: space-evenly;
 }
 
+.welcomeText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    padding: 5px;
+}
+
 @media only screen and (max-width: 450px){
     .mainCardContainer {
         max-width: 98%;
