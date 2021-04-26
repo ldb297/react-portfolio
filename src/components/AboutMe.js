@@ -3,9 +3,10 @@ import React from 'react';
 import './styling/AboutMe.css';
 
 import LanguageInfo from './LanguageInfo';
+import ContatctInfor from './ContactInfo';
 
-import resume from './styling/resume.pdf';
 import bioImage from './styling/bioImage.png';
+import ContactInfo from './ContactInfo';
 
 const AboutMe = () => {
 
@@ -23,7 +24,7 @@ const AboutMe = () => {
                 </textarea>
             </div>
             
-            <a className="resumeLink" href={resume} download="Leo_Brooks_Design_Resume" target="_blank" rel="noreferrer">Resume</a>
+            <ContactInfo/>
             <LanguageInfo/>
             <div className="aboutMeQuoteText">`passionate about innovative programming design`</div>
         </>
