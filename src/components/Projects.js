@@ -4,15 +4,15 @@ import React from 'react';
 import './styling/Projects.css'
 
 //image imports
-import p1code from './styling/images/p1code.png';
+// import p1code from './styling/images/p1code.png';
 import p1live from './styling/images/p1live.png';
-import p2code from './styling/images/p2code.png';
+// import p2code from './styling/images/p2code.png';
 import p2live from './styling/images/p2live.png';
-import p3back from './styling/images/p3back.png';
-import p3front from './styling/images/p3front.png';
+// import p3back from './styling/images/p3back.png';
+// import p3front from './styling/images/p3front.png';
 import p3live from './styling/images/p3live.png';
-import p4back from './styling/images/p4back.png';
-import p4front from './styling/images/p4front.png';
+// import p4back from './styling/images/p4back.png';
+// import p4front from './styling/images/p4front.png';
 import p4live from './styling/images/p4live.png';
 
 const Projects = () => {

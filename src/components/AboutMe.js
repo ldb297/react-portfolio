@@ -3,10 +3,9 @@ import React from 'react';
 import './styling/AboutMe.css';
 
 import LanguageInfo from './LanguageInfo';
-import ContatctInfor from './ContactInfo';
+import ContactInfo from './ContactInfo';
 
 import bioImage from './styling/bioImage.png';
-import ContactInfo from './ContactInfo';
 
 const AboutMe = () => {
 
