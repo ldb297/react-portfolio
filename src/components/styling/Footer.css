@@ -1,3 +1,6 @@
 .mainFooter {
     text-align: center;
+    min-width: 246px;
+    margin: 2px;
+    padding: 2px;
 }
