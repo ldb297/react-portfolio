@@ -23,6 +23,16 @@
     justify-content: center;
 }
 
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#portfolioGithubLink {
+    margin-top: 10px;
+}
+
 hr {
     height: 2px;
     width: 80%;
