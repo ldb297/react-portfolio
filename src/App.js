@@ -30,6 +30,7 @@ function App() {
         projects page. On my bio page, you can click any of the icons for more 
         information. On my projects page, there are links below each image that
         will take you to their respective locations. All links open in a separate browser window.
+        <a id="portfolioGithubLink" href="https://github.com/ldb297/react-portfolio" target="_blank" rel="noreferrer">Github Repo for this Portfolio</a>
       </div>
       {/* include component that houses entire business card component*/}
       <Footer/>
