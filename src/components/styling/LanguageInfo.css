@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.languageInfoText {
+    font-size: 1.25rem;
+}
+
 table {
     max-height: 300px;
     max-width: 300px;
