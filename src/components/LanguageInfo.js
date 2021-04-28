@@ -9,7 +9,7 @@ const LanguageInfo = () => {
     return (
         <>
             <div className="mainContainer">
-                <div className="languageInfoText">familiarities in</div>
+                <div className="languageInfoText">skills in</div>
                 <table className="languageIconTable">
                     <tr className="firstRow">
                         <td className="bash">
