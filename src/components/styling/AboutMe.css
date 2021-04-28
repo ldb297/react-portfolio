@@ -22,10 +22,28 @@
     border-radius: 75%;
 }
 
+.aboutMeRightContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#emailText {
+    font-size: 1.25rem;
+    left: 2px;
+}
+
 .aboutMeTextContainer {
     height: 200px;
-    width: 300px;
+    width: 250px;
     margin: 2%;
+    margin-right: 40px;
+    overflow-y: scroll;
+    text-align: right;
+}
+
+.aboutMeTextContainer::-webkit-scrollbar {
+    display: none;
+
 }
 
 textarea {
