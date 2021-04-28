@@ -11,7 +11,7 @@ const AboutMe = () => {
 
     return (
         <>
-            <div className="aboutMeQuoteText">`driven by clean engineering architectures`</div>
+            <div className="aboutMeQuoteText">`driven by clean engineering architecture`</div>
             
             <div className="aboutMeBioContainer">
                 <div className="aboutMeImageContainer">
