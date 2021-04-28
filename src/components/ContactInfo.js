@@ -15,7 +15,7 @@ const ContactInfo = () => {
 
                 <div className="mobileTitle">tap icons for more info</div>
                 <div className="svgSubContainer">
-                    <a href={resume} download="Leo_Brooks_Design_Resume" target="_blank" rel="noreferrer">
+                    <a href={resume} download="Leo_Brooks_Design_Resume" target="_blank" rel="noreferrer" title="download resume">
                         <svg className="mainContainerSvg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 172 172" fill="#000000">
                             <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none">
                                 <path d="M0,172v-172h172v172z" fill="none"></path><g>
@@ -27,7 +27,7 @@ const ContactInfo = () => {
                                 <path d="M146.2,107.5v25.8v4.3h4.3h11.9239l-24.8239,27.9285l-24.8239,-27.9285h11.9239h4.3v-4.3v-25.8h17.2M150.5,103.2h-25.8v30.1h-21.5l34.4,38.7l34.4,-38.7h-21.5v-30.1zM148.35,77.4v0c1.1825,0 2.15,0.9675 2.15,2.15v12.9c0,1.1825 -0.9675,2.15 -2.15,2.15v0c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v-12.9c0,-1.1825 0.9675,-2.15 2.15,-2.15zM92.45,159.1h21.5c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15h-21.5c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15zM122.55,47.3h-21.5c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15h21.5c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15zM122.55,64.5h-21.5c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15h21.5c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15zM122.55,81.7h-21.5c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15h21.5c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15zM113.95,98.9h-64.5c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15h64.5c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15zM113.95,116.1h-64.5c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15h64.5c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15zM92.45,133.3h-43c-1.1825,0 -2.15,-0.9675 -2.15,-2.15v0c0,-1.1825 0.9675,-2.15 2.15,-2.15h43c1.1825,0 2.15,0.9675 2.15,2.15v0c0,1.1825 -0.9675,2.15 -2.15,2.15z" fill="#3c4f76"></path></g></g></svg>
                     </a>
 
-                    <a href="https://www.github.com/ldb297/" target="_blank" rel="noreferrer">
+                    <a href="https://www.github.com/ldb297/" target="_blank" rel="noreferrer" title="github profile">
                         <svg className="mainContainerSvg" viewBox="0 0 128 128">
                             <g fill="#3C4F76">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path>
@@ -36,7 +36,7 @@ const ContactInfo = () => {
                         </svg>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/brooksld/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/brooksld/" target="_blank" rel="noreferrer" title="linkedin profile">
                         <svg className="mainContainerSvg" viewBox="0 0 128 128">
                             <g id="original">
                                 <path fill="#3C4F76" d="M116,3H12a8.91,8.91,0,0,0-9,8.8V116.22A8.91,8.91,0,0,0,12,125H116a8.93,8.93,0,0,0,9-8.81V11.77A8.93,8.93,0,0,0,116,3Z"></path>
@@ -46,7 +46,7 @@ const ContactInfo = () => {
                     </a>
 
                     <a href="mailto:ldbrooks297@gmail.com">
-                        <svg className="mainContainerSvg" viewBox="0 0 512 512">
+                        <svg className="mainContainerSvg" viewBox="0 0 512 512" title="send me an email">
                             <g fill="#3C4F76">
                                 <polygon points="484.973,122.808 452.288,451.017 59.712,451.017 33.379,129.16 256,253.802 	"/>
                                 <polygon points="473.886,60.983 256,265.659 38.114,60.983 256,60.983 	"/></g>
