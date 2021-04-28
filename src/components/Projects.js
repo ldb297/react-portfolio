@@ -24,6 +24,7 @@ const Projects = () => {
 
             <div className="projectDisplayContainer" id="projectFour">
                 <span className="projectTitle">Nutrifit Tracker</span>
+                <span className="projectTechnologies">Django/Python/PostgreSQL</span>
                 <div className="projectImage">
                     {/* <div className="twoImages">
                         <img className="codeImage" src={p4front} id="p4front" alt="fourth project front end code snippet"/>
@@ -42,6 +43,7 @@ const Projects = () => {
 
             <div className="projectDisplayContainer" id="projectThree">
                 <span className="projectTitle">nipponRunner</span>
+                <span className="projectTechnologies">MongoDB, Express, React, Node</span>
                 <div className="projectImage">
                     {/* <div className="dualImages">
                         <img className="codeImage" id="p3back" src={p3back} alt="third project back end code snippet"/>
@@ -61,6 +63,7 @@ const Projects = () => {
 
             <div className="projectDisplayContainer" id="projectTwo">
                 <span className="projectTitle">gameBook</span>
+                <span className="projectTechnologies">Express/PostgreSQL/Node</span>
                 <div className="projectImage">
                     {/* <img className="codeImage" id="p2code" src={p2code} alt="second project code snippet"/> */}
                     <div className="projectDescription">
@@ -77,6 +80,7 @@ const Projects = () => {
             <div className="projectDisplayContainer" id="projectOne">
                 {/* flex */}
                 <span className="projectTitle">[2B || !2B]</span>
+                <span className="projectTechnologies">HTML5, CSS3, Javascript</span>
                 <div className="projectImage">
                     {/* <img className="codeImage" id="p1code" src={p1code} alt="first project code snippet"/> */}
                     <div className="projectDescription">
