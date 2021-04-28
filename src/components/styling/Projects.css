@@ -16,6 +16,10 @@ img {
     padding: 5px;
 }
 
+.mainProjectContainer::-webkit-scrollbar {
+    display: none;
+}
+
 .projectTitle {
     display: flex;
     margin-top: 25px;
