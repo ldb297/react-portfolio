@@ -19,6 +19,7 @@ img {
 .projectTitle {
     display: flex;
     margin-top: 25px;
+    font-size: 1.5rem;
 }
 
 .projectImage {
