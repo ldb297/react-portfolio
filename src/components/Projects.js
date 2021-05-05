@@ -90,7 +90,7 @@ const Projects = () => {
                 </div>
                 <div className="links">
                     <a className="githubLink" href="https://github.com/ldb297/Project-1" target="_blank" rel="noreferrer">Github Link</a>
-                    <a className="deployedLink" href="https://ldb297.github.io/Project-1/" target="_blank" rel="noreferrer">Deployed Link</a>
+                    <a className="deployedLink" href="https://ldb297.github.io/to-be-or-not-to-be/" target="_blank" rel="noreferrer">Deployed Link</a>
                 </div>
             </div>
         </div>
