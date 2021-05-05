@@ -23,7 +23,7 @@ const AboutMe = () => {
                         <br/><br/>
                         My biggest weakness is not being able to accurately measure my own strengths. I struggle to accept praise, so I have a tendency to overcompensate for this inability by over working myself at times. I'm working on improving this by being more vulnerable to positive reinforcement.
                         <br/><br/>
-                        My biggest strength is being able to see the weaknesses in my teammates and approach them with thoughtful and constructive advice with a pressureless demeanor. I've often been praised by colleagues as emphatic and understanding of every situation, regardless of relatability. 
+                        My biggest strength is being able to see the weaknesses in my teammates and approach them with thoughtful and constructive advice with a pressureless demeanor. I've often been praised by colleagues as empathetic and understanding of every situation, regardless of relatability. 
                         <br/><br/>
                         In my free time I enjoy trail-running and long distance road running. I also like leisurely reading science fiction non-fiction books, news articles, and theoretical scientific texts. If I'm not running or reading, I can also be found exploring my culinary creativity or working through my Super Ultimate 12 sudoku book (it's currently kicking my butt lol but i'm determined to beat it! (*•̀ᴗ•́*)و ̑̑). 
                         <br/><br/>

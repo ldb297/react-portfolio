@@ -31,7 +31,7 @@ const Projects = () => {
                         <img className="codeImage" src={p4back} id="p4back" alt="fourth project back end code snippet"/>
                     </div> */}
                     <div className="projectDescription">
-                        Nutrition stat tracking application utilizing python scripts. Features Django built in CRUD operations with user authenticaiton and protected routes as well as parsed data pulled from USDA nutrition API. Current deployment under construction. 
+                        Nutrition stat tracking application utilizing python scripts. Features Django built in CRUD operations with user authentication and protected routes as well as parsed data pulled from USDA nutrition API. Current deployment under construction. 
                     </div>
                     <img className="liveImage" src={p4live} alt="fourth project live"/>
                 </div>
